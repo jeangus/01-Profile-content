@@ -1,16 +1,55 @@
-html {background: #eee; color: #7d7d7d; font-family: 'Gentium Basic', serif;}
-h1, h2, h3 {font-family: 'Patua One', serif; font-weight: bold;}
-h1 {color: #dd5555}
-h2 {text-align: center}
-a {text-decoration: none; color: #ccc}
-a:hover {color: #dd5555;}
-i.fa {font-size: 25px}
-.top {text-align: center}
-.top p {padding-bottom: 20px}
-.side_bar {position: fixed; left :0 ; top: 0; margin:0; width: 120px; height: 100%; background: #384047; color: #373832; text-align: center;}
-.side_bar ul {padding-left: 0; list-style: none}
-.side_bar li {padding: 40px 0;}
-.top img {border-radius: 50%; width: 150px; border: 4px solid #eee;}
+html {
+  background: #eee;
+  color: #7d7d7d;
+  font-family: 'Gentium Basic', serif;
+}
+h1, h2, h3 {
+  font-family: 'Patua One', serif;
+  font-weight: bold;}
+h1 {
+  color: #dd5555;
+}
+h2 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #ccc}
+a:hover {
+  color: #dd5555;
+}
+i.fa {
+  font-size: 25px;
+}
+.top {
+  text-align: center;
+}
+.top p {
+  padding-bottom: 20px;
+}
+.side_bar {
+  position: fixed;
+  left :0 ;
+  top: 0;
+  margin:0;
+  width: 120px;
+  height: 100%;
+  background: #384047;
+  color: #373832;
+  text-align: center;
+}
+.side_bar ul {
+  padding-left: 0;
+  list-style: none;
+}
+.side_bar li {
+  padding: 40px 0;
+}
+.top img {
+  border-radius: 50%;
+   width: 150px;
+    border: 4px solid #eee;
+}
 .card {
   border-radius: 2px;
   width: 50%; background: #FFF; margin: 20px auto; padding: 30px;
@@ -18,13 +57,50 @@ i.fa {font-size: 25px}
   -moz-box-shadow: 0px 0px 5px 0px rgba(214,214,214,0.54);
   box-shadow: 0px 0px 5px 0px rgba(214,214,214,0.54);
 }
-.card ul li {text-align: center; display: inline-block; padding:20px;}
-.card ul {margin: 0 auto; width: }
-.btn-red {background: #dd5555; border-radius: 2px; padding: 14px 20px; margin-top:10px; text-decoration: none; color: #fff}
-.btn-red:hover {color: #fff}
-.text-center {text-align: center}
-table h3 {margin-top:5px;}
-table img {width: 90%; text-align: center}
-td {padding-bottom: 20px}
-.td-text {vertical-align: top;}
-list
+.card ul li {
+  text-align: center;
+  display: inline-block;
+  padding:20px;
+}
+.card ul {
+  margin: 0 auto;
+  padding:0;
+}
+.btn-red {
+  background: #dd5555;
+  border-radius: 2px;
+  padding: 14px 20px;
+  margin-top:10px;
+  text-decoration: none;
+  color: #fff;
+}
+.btn-red:hover {
+  color: #fff;
+}
+.text-center {
+  text-align: center;
+}
+table h3 {
+  margin-top:5px;
+}
+table img {
+  width: 90%;
+  text-align: center;
+}
+td {
+  padding-bottom: 20px;
+}
+.td-text {
+  vertical-align: top;
+}
+.fixed img {
+  width :80px;
+  position: fixed;
+  top:20px;
+  right: 40px;
+}
+.container-image {
+  height:155px;
+  width: 100%;
+  display: block;
+}

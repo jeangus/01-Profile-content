@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
 
@@ -34,16 +35,27 @@
 
 
   <div class="top card" id="summary">
+  <script>
+    $(window).bind('scroll', function () {
+      if ($(window).scrollTop() > 200) {
+          $('.top').addClass('fixed');
+      } else {
+          $('.top').removeClass('fixed');
+      }
+    });
+  </script>
     <script>
       function play(index){
         var audio = document.getElementById("audio"+index);
         audio.play();
                   }
    </script>
-    <a nohref value="PLAY" onmouseover="play(1)"> <img src="https://media.giphy.com/media/l2JhIUyUs8KDCCf3W/giphy.gif" alt="Alexis Fieujean"></a>
-    <audio id="audio1">
-      <source src="http://www.trumpsounds.com/audio/6-rich.mp3">
-    </audio>
+    <div class="container-image">
+      <a nohref value="PLAY" onmouseover="play(1)"> <img src="https://media.giphy.com/media/l2JhIUyUs8KDCCf3W/giphy.gif" alt="Alexis Fieujean"></a>
+      <audio id="audio1">
+        <source src="http://www.trumpsounds.com/audio/6-rich.mp3">
+      </audio>
+    </div>
     <h1>Alexis Fieujean</h1>
     <h2>I'm CEO bitch.</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ut explicabo voluptates repellendus obcaecati animi consequatur harum veniam mollitia quo perferendis tenetur magnam, aperiam deleniti ipsa accusantium dolorem architecto error?</p>
