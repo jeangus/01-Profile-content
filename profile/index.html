@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Profile</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+</head>
+<body>
+
+  <div class="side_bar">
+    <ul>
+      <li>
+        <a href="#summary">
+          <i class="fa fa-info-circle"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#favorite-movies">
+          <i class="fa fa-file-video-o"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#footer">
+          <i class="fa fa-life-ring"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+
+
+  <div class="top card" id="summary">
+    <script>
+      function play(index){
+        var audio = document.getElementById("audio"+index);
+        audio.play();
+                  }
+   </script>
+    <a nohref value="PLAY" onmouseover="play(1)"> <img src="https://media.giphy.com/media/l2JhIUyUs8KDCCf3W/giphy.gif" alt="Alexis Fieujean"></a>
+    <audio id="audio1">
+      <source src="http://www.trumpsounds.com/audio/6-rich.mp3">
+    </audio>
+    <h1>Alexis Fieujean</h1>
+    <h2>I'm CEO bitch.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ut explicabo voluptates repellendus obcaecati animi consequatur harum veniam mollitia quo perferendis tenetur magnam, aperiam deleniti ipsa accusantium dolorem architecto error?</p>
+    <a href="http://www.masterwork.fr" target="_blank" class="btn-red">See for yourself</a>
+  </div>
+
+  <div class="card text-center">
+    <ul>
+      <li class="text-center">
+        <a href="#">
+          <i class="fa fa-facebook"></i>
+          <br>
+          Facebook
+        </a>
+      </li>
+      <li class="text-center">
+        <a href="#">
+          <i class="fa fa-twitter"></i>
+          <br>
+          Twitter
+        </a>
+      </li>
+      <li class="text-center">
+        <a href="#">
+          <i class="fa fa-slack"></i>
+          <br>
+          Slack
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="card" id="favorite-movies">
+    <h2>My favorites movies</h2>
+    <table>
+      <tr>
+        <td width="30%"" ><img src="http://www.tuxboard.com/photos/2013/05/Benoit-Poelvoorde-c-est-arrive-pres-de-chez-vous-affiche.jpg" alt="c'est arrivé près de chez vous"></td>
+        <td width="70%" class="td-text">
+          <h3>C'est arrivé près de chez vous</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quae vitae dolores, quam minus, rem eius, fugiat earum ab maiores consectetur accusantium hic nesciunt nam repellat. Libero consequuntur debitis, enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quae vitae dolores, quam minus, rem eius, fugiat earum ab maiores consectetur accusantium hic nesciunt nam repellat. Libero consequuntur debitis, enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quae vitae dolores, quam minus, rem eius, fugiat earum ab maiores consectetur accusantium hic nesciunt nam repellat. Libero consequuntur debitis, enim.</p>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="https://images-na.ssl-images-amazon.com/images/I/51auJbVGhyL._SY450_.jpg" alt="Teletubies"></td>
+        <td class="td-text">
+          <h3>Téléteubi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quae vitae dolores, quam minus, rem eius, fugiat earum ab maiores consectetur accusantium hic nesciunt nam repellat. Libero consequuntur debitis, enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quae vitae dolores, quam minus, rem eius, fugiat earum ab maiores consectetur accusantium hic nesciunt nam repellat. Libero consequuntur debitis, enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quae vitae dolores, quam minus, rem eius, fugiat earum ab maiores consectetur accusantium hic nesciunt nam repellat. Libero consequuntur debitis, enim.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="td-img"><img src="http://fr.web.img5.acsta.net/pictures/13/12/20/09/59/259061.jpg" alt="jacky"></td>
+        <td class="td-text">
+          <h3>Jacky au royaume des filles</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quae vitae dolores, quam minus, rem eius, fugiat earum ab maiores consectetur accusantium hic nesciunt nam repellat. Libero consequuntur debitis, enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quae vitae dolores, quam minus, rem eius, fugiat earum ab maiores consectetur accusantium hic nesciunt nam repellat. Libero consequuntur debitis, enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quae vitae dolores, quam minus, rem eius, fugiat earum ab maiores consectetur accusantium hic nesciunt nam repellat. Libero consequuntur debitis, enim.</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card text-center" id="footer">
+    <h2>About this page</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sequi quibusdam, eos nesciunt beatae minima repellendus reiciendis, quas minus, aliquam delectus, tempora alias ea dolores pariatur vel fugiat dolorem iusto!</p>
+    <ul>
+      <li class="text-center">
+        <a href="#">
+          <i class="fa fa-heart"></i>
+        </a>
+      </li>
+      <li class="text-center">
+        <a href="#">
+          <i class="fa fa-share"></i>
+        </a>
+      </li>
+      <li class="text-center">
+        <a href="#">
+          <i class="fa fa-star"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
